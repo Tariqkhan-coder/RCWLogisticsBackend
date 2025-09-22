@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "RSWLogistics.Controllers.DriverController",
+    "Method": "CreateDriver",
+    "RelativePath": "api/Driver/CreateDriver",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "RSWLogistics.DTOs.DriverVM.CreateDriver",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSWLogistics.Controllers.DriverController",
+    "Method": "DeleteDriver",
+    "RelativePath": "api/Driver/DeleteDriver/{driverId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "driverId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSWLogistics.Controllers.DriverController",
+    "Method": "EquipmentsInformation",
+    "RelativePath": "api/Driver/EquipmentsInformation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eq",
+        "Type": "RCWLogistics.DTOs.DriverVM.EquipmentInformationvm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSWLogistics.Controllers.DriverController",
+    "Method": "GetAllDrivers",
+    "RelativePath": "api/Driver/GetAllDrivers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSWLogistics.Controllers.DriverController",
+    "Method": "RequestLoad",
+    "RelativePath": "api/Driver/RequestLoad",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "RCWLogistics.DTOs.DriverVM.RequestLoadVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSWLogistics.Controllers.DriverController",
+    "Method": "UpdateDriver",
+    "RelativePath": "api/Driver/UpdateDriver",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "RCWLogistics.DTOs.DriverVM.UpdateDriverVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSWLogistics.Controllers.DriverController",
+    "Method": "UploadDriverDocuments",
+    "RelativePath": "api/Driver/UploadDocuments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documents",
+        "Type": "RCWLogistics.DTOs.DriverVM.UploadDocuments",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
