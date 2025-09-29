@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iDTvDhHnnYk=",
+  "dgSpecHash": "fSEKSHUJNls=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Talha khan\\source\\repos\\RSWLogistics\\RCWLogistics.csproj",
+  "projectFilePath": "D:\\RCWLogisticsBackend\\RCWLogisticsBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Talha khan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Talha khan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

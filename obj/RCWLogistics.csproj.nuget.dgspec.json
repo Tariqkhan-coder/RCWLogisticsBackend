@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Talha khan\\source\\repos\\RSWLogistics\\RCWLogistics.csproj": {}
+    "D:\\RCWLogisticsBackend\\RCWLogistics.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Talha khan\\source\\repos\\RSWLogistics\\RCWLogistics.csproj": {
+    "D:\\RCWLogisticsBackend\\RCWLogistics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Talha khan\\source\\repos\\RSWLogistics\\RCWLogistics.csproj",
+        "projectUniqueName": "D:\\RCWLogisticsBackend\\RCWLogistics.csproj",
         "projectName": "RCWLogistics",
-        "projectPath": "C:\\Users\\Talha khan\\source\\repos\\RSWLogistics\\RCWLogistics.csproj",
+        "projectPath": "D:\\RCWLogisticsBackend\\RCWLogistics.csproj",
         "packagesPath": "C:\\Users\\Talha khan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Talha khan\\source\\repos\\RSWLogistics\\obj\\",
+        "outputPath": "D:\\RCWLogisticsBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

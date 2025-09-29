@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RCWLogistics.Models;
+using RCWLogisticsBackend.Models;
 using RSWLogistics.Models;
 
 namespace RSWLogistics.LogisticsDb
@@ -11,5 +12,6 @@ namespace RSWLogistics.LogisticsDb
         }
         public DbSet<Driver> Drivers { get; set; }
         public DbSet<Loads> Loads { get; set; }
+        public DbSet<Admins> Admins { get; set; }
     }
 }

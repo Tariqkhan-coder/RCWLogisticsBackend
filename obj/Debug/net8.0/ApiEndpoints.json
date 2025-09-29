@@ -1,5 +1,47 @@
 [
   {
+    "ContainingType": "RCWLogisticsBackend.Controllers.AdminController.AdminController",
+    "Method": "CreateAdmin",
+    "RelativePath": "api/Admin/CreateAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "admin",
+        "Type": "RCWLogisticsBackend.DTOs.Admin.CreateAdminVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RCWLogisticsBackend.Controllers.AdminController.AdminController",
+    "Method": "GetAllDrivers",
+    "RelativePath": "api/Admin/GetAllDrivers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RCWLogisticsBackend.Controllers.AdminController.AdminController",
+    "Method": "LoginAdmin",
+    "RelativePath": "api/Admin/LoginAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "admin",
+        "Type": "RCWLogisticsBackend.DTOs.Admin.LoginAdmin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "RSWLogistics.Controllers.DriverController",
     "Method": "CreateDriver",
     "RelativePath": "api/Driver/CreateDriver",
@@ -45,16 +87,6 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "RSWLogistics.Controllers.DriverController",
-    "Method": "GetAllDrivers",
-    "RelativePath": "api/Driver/GetAllDrivers",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": []
   },
   {

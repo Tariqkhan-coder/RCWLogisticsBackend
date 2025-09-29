@@ -4227,11 +4227,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Talha khan\\source\\repos\\RSWLogistics\\RCWLogistics.csproj",
-      "projectName": "RCWLogistics",
-      "projectPath": "C:\\Users\\Talha khan\\source\\repos\\RSWLogistics\\RCWLogistics.csproj",
+      "projectUniqueName": "D:\\RCWLogisticsBackend\\RCWLogisticsBackend.csproj",
+      "projectName": "RCWLogisticsBackend",
+      "projectPath": "D:\\RCWLogisticsBackend\\RCWLogisticsBackend.csproj",
       "packagesPath": "C:\\Users\\Talha khan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Talha khan\\source\\repos\\RSWLogistics\\obj\\",
+      "outputPath": "D:\\RCWLogisticsBackend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

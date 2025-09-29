@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RCWLogistics")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90199f990a44a6f867e3532ce58ff1eee14fa448")]
 [assembly: System.Reflection.AssemblyProductAttribute("RCWLogistics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RCWLogistics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

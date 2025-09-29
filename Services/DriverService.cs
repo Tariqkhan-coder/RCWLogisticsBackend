@@ -53,7 +53,7 @@ namespace RSWLogistics.Services
             };
             string verificationLink = $"https://yourdomain.com/verify-email?userId={newUser.DriverId}";
             string subject = "Verify your RCWLogistics Driver account";
-            string body = $"<h2>Welcome to RCWLogisticsLLC!</h2><p>Click below to verify your email:</p><a href='{verificationLink}'>Verify Email</a>";
+            string body = $"<h2>Welcome to RCWLogisticsLLC!</h2><p>Congratulation! Your Driver Account has been Completed successfully</p><a href='{verificationLink}'>Verify Email</a>";
             await _emailService.SendEmailAsync(newUser.EmailAddress, subject, body);
 
             await _db.Drivers.AddAsync(newUser);
@@ -155,15 +155,7 @@ namespace RSWLogistics.Services
 
             return response;
         }
-        public async Task<ResponseVm> GetAllDrivers()
-        {
-            ResponseVm response = new ResponseVm();
-            var drivers = Methods.ExecuteStoredProcedure( "GetAllDrivers");
-            response.ResponseCode = 200;
-            response.ResponseMessage = "Drivers retrieved successfully.";
-            response.Data = drivers;
-            return response;
-        }
+       
         public async Task<ResponseVm> UploadDriverDocuments(UploadDocuments documents)
         {
             ResponseVm response = new ResponseVm();

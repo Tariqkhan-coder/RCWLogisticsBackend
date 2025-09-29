@@ -99,6 +99,29 @@ namespace RSWLogistics.Migrations
                     b.ToTable("Loads");
                 });
 
+            modelBuilder.Entity("RCWLogisticsBackend.Models.Admins", b =>
+                {
+                    b.Property<int>("AdminId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AdminId"));
+
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasMaxLength(450)
+                        .HasColumnType("NVARCHAR");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasMaxLength(450)
+                        .HasColumnType("NVARCHAR");
+
+                    b.HasKey("AdminId");
+
+                    b.ToTable("Admins");
+                });
+
             modelBuilder.Entity("RSWLogistics.Models.Driver", b =>
                 {
                     b.Property<long>("DriverId")

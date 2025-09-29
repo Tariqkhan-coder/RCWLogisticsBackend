@@ -63,13 +63,7 @@ namespace RSWLogistics.Controllers
             var result = await _driverService.EquipmentsInformation(eq);
             return Ok(result);
         }
-        [HttpGet("GetAllDrivers")]
-        [AllowAnonymous]
-        public async Task<IActionResult> GetAllDrivers()
-        {
-            var result = await _driverService.GetAllDrivers();
-            return Ok(result);
-        }
+       
         [HttpPost("UploadDocuments")]
         [AllowAnonymous]
         public async Task<IActionResult> UploadDriverDocuments(UploadDocuments documents)
