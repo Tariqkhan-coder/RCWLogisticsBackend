@@ -52,17 +52,7 @@ namespace RSWLogistics.Controllers
             var result = await _driverService.DeleteDriver(driverId);
             return Ok(result);
         }
-        [HttpPost("EquipmentsInformation")]
-        [AllowAnonymous]
-        public async Task<IActionResult> EquipmentsInformation(EquipmentInformationvm eq)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest("Invalid data.");
-            }
-            var result = await _driverService.EquipmentsInformation(eq);
-            return Ok(result);
-        }
+       
        
         [HttpPost("UploadDocuments")]
         [AllowAnonymous]

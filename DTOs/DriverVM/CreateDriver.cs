@@ -21,6 +21,9 @@ namespace RSWLogistics.DTOs.DriverVM
         public string State { get; set; } = "";
      
         public string ZipCode { get; set; } = "";
+        public string AdditionalEquipmentNotes { get; set; } = "";
+        public string Documents { get; set; } = "";
+        public string TruckType { get; set; } = "";
 
     }
 }

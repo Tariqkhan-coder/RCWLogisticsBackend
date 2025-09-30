@@ -50,6 +50,9 @@ namespace RSWLogistics.Services
                 City = driver.City,
                 State = driver.State,
                 ZipCode = driver.ZipCode,
+                AdditionalEquipmentNotes = driver.AdditionalEquipmentNotes,
+                Documents = driver.Documents,
+                TruckType = driver.TruckType
             };
             string verificationLink = $"https://yourdomain.com/verify-email?userId={newUser.DriverId}";
             string subject = "Verify your RCWLogistics Driver account";
@@ -128,33 +131,7 @@ namespace RSWLogistics.Services
             response.Data = existingUser; // optional, agar delete kiya record return karna ho
             return response;
         }
-        public async Task<ResponseVm> EquipmentsInformation(EquipmentInformationvm eq)
-        {
-            ResponseVm response = new ResponseVm();
-
-            var existingDriver = await _db.Drivers.FirstOrDefaultAsync(d => d.DriverId == eq.DriverId);
-            if (existingDriver == null)
-            {
-                response.ResponseCode = 404;
-                response.ErrorMessage = "Driver not found.";
-                return response;
-            }
-
-            // Update only provided fields (null/empty skip logic)
-            if (!string.IsNullOrWhiteSpace(eq.TruckType))
-                existingDriver.TruckType = eq.TruckType;
-            if (!string.IsNullOrWhiteSpace(eq.AdditionalEquipmentNotes))
-                existingDriver.AdditionalEquipmentNotes = eq.AdditionalEquipmentNotes;
-
-            _db.Drivers.Update(existingDriver);
-            await _db.SaveChangesAsync();
-
-            response.ResponseCode = 200;
-            response.ResponseMessage = "Driver Equipments add successfully.";
-            response.Data = existingDriver;
-
-            return response;
-        }
+   
        
         public async Task<ResponseVm> UploadDriverDocuments(UploadDocuments documents)
         {

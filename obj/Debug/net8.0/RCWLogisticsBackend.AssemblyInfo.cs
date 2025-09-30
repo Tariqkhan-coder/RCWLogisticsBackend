@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RCWLogisticsBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90199f990a44a6f867e3532ce58ff1eee14fa448")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5195dde91a187126d083c068dd86bbb976ac34c")]
 [assembly: System.Reflection.AssemblyProductAttribute("RCWLogisticsBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RCWLogisticsBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
