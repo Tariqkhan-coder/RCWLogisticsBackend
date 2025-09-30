@@ -75,22 +75,6 @@
   },
   {
     "ContainingType": "RSWLogistics.Controllers.DriverController",
-    "Method": "EquipmentsInformation",
-    "RelativePath": "api/Driver/EquipmentsInformation",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "eq",
-        "Type": "RCWLogistics.DTOs.DriverVM.EquipmentInformationvm",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "RSWLogistics.Controllers.DriverController",
     "Method": "RequestLoad",
     "RelativePath": "api/Driver/RequestLoad",
     "HttpMethod": "POST",

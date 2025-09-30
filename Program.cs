@@ -9,7 +9,7 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 
 // Set Kestrel URLs
-builder.WebHost.UseUrls("http://0.0.0.0:5141", "https://0.0.0.0:7141");
+builder.WebHost.UseUrls("http://0.0.0.0:5141");
 
 // Add services
 builder.Services.AddControllers();
