@@ -3,12 +3,43 @@
   "WorkspaceRootPath": "D:\\RCWLogisticsBackend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\RCWLogisticsBackend\\Migrations\\20251001183439_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251001183439_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\logisticsdb\\rswdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:logisticsdb\\rswdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\RCWLogisticsBackend\\Migrations\\20251001182214_kharal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251001182214_kharal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\rcwlogisticsbackend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:rcwlogisticsbackend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\controllers\\drivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:controllers\\drivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\interfaces\\idriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:interfaces\\idriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\docker-compose.yml.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:docker-compose.yml.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\services\\driverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,24 +50,8 @@
       "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:dtos\\drivervm\\createdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\RCWLogisticsBackend\\Migrations\\20250930165700_hey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250930165700_hey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\migrations\\20250930162724_ff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:migrations\\20250930162724_ff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\migrations\\20250930001338_nn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:migrations\\20250930001338_nn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\interfaces\\idriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:interfaces\\idriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\controllers\\admincontroller\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,18 +90,6 @@
       "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:dtos\\admin\\createadminvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\migrations\\20250928225822_dsd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:migrations\\20250928225822_dsd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\migrations\\20250928225339_changedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:migrations\\20250928225339_changedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\logisticsdb\\rswdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:logisticsdb\\rswdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|d:\\rcwlogisticsbackend\\models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70AD4546-DE85-4EDD-923F-5B3894EA0344}|RCWLogisticsBackend.csproj|solutionrelative:models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -106,76 +109,157 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20251001183439_new.cs",
+              "DocumentMoniker": "D:\\RCWLogisticsBackend\\Migrations\\20251001183439_new.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251001183439_new.cs",
+              "ToolTip": "D:\\RCWLogisticsBackend\\Migrations\\20251001183439_new.cs",
+              "RelativeToolTip": "Migrations\\20251001183439_new.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T18:34:40.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAAcVAAAAAAAAAAAewBEVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-10-01T18:25:33.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\RCWLogisticsBackend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\RCWLogisticsBackend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwBsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-01T17:45:19.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CreateDriver.cs",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\DTOs\\DriverVM\\CreateDriver.cs",
               "RelativeDocumentMoniker": "DTOs\\DriverVM\\CreateDriver.cs",
               "ToolTip": "D:\\RCWLogisticsBackend\\DTOs\\DriverVM\\CreateDriver.cs",
               "RelativeToolTip": "DTOs\\DriverVM\\CreateDriver.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwBkAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA5wBkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T18:03:39.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T18:03:39.964Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\RCWLogisticsBackend\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\RCWLogisticsBackend\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T20:42:16.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\RCWLogisticsBackend\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-28T20:39:22.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "20251001182214_kharal.cs",
+              "DocumentMoniker": "D:\\RCWLogisticsBackend\\Migrations\\20251001182214_kharal.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251001182214_kharal.cs",
+              "ToolTip": "D:\\RCWLogisticsBackend\\Migrations\\20251001182214_kharal.cs",
+              "RelativeToolTip": "Migrations\\20251001182214_kharal.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T18:22:14.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\RCWLogisticsBackend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\RCWLogisticsBackend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAkwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T20:42:16.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RSWDb.cs",
+              "DocumentMoniker": "D:\\RCWLogisticsBackend\\LogisticsDb\\RSWDb.cs",
+              "RelativeDocumentMoniker": "LogisticsDb\\RSWDb.cs",
+              "ToolTip": "D:\\RCWLogisticsBackend\\LogisticsDb\\RSWDb.cs",
+              "RelativeToolTip": "LogisticsDb\\RSWDb.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T22:39:47.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "docker-compose.yml.txt",
+              "DocumentMoniker": "D:\\RCWLogisticsBackend\\docker-compose.yml.txt",
+              "RelativeDocumentMoniker": "docker-compose.yml.txt",
+              "ToolTip": "D:\\RCWLogisticsBackend\\docker-compose.yml.txt",
+              "RelativeToolTip": "docker-compose.yml.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-10-01T11:11:35.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RCWLogisticsBackend",
+              "DocumentMoniker": "D:\\RCWLogisticsBackend\\RCWLogisticsBackend.csproj",
+              "RelativeDocumentMoniker": "RCWLogisticsBackend.csproj",
+              "ToolTip": "D:\\RCWLogisticsBackend\\RCWLogisticsBackend.csproj",
+              "RelativeToolTip": "RCWLogisticsBackend.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-01T17:03:35.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DriverController.cs",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\Controllers\\DriverController.cs",
               "RelativeDocumentMoniker": "Controllers\\DriverController.cs",
               "ToolTip": "D:\\RCWLogisticsBackend\\Controllers\\DriverController.cs",
               "RelativeToolTip": "Controllers\\DriverController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwDYAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAADYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T23:03:27.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T23:03:27.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "DriverService.cs",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\Services\\DriverService.cs",
               "RelativeDocumentMoniker": "Services\\DriverService.cs",
               "ToolTip": "D:\\RCWLogisticsBackend\\Services\\DriverService.cs",
               "RelativeToolTip": "Services\\DriverService.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAAAIUAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwIYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T20:44:09.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T20:44:09.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "IDriver.cs",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\Interfaces\\IDriver.cs",
               "RelativeDocumentMoniker": "Interfaces\\IDriver.cs",
@@ -183,12 +267,11 @@
               "RelativeToolTip": "Interfaces\\IDriver.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T23:19:38.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T23:19:38.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "IAdmin.cs",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\Interfaces\\IAdmin.cs",
               "RelativeDocumentMoniker": "Interfaces\\IAdmin.cs",
@@ -200,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\Controllers\\AdminController\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController\\AdminController.cs",
@@ -212,45 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250930162724_ff.cs",
-              "DocumentMoniker": "D:\\RCWLogisticsBackend\\Migrations\\20250930162724_ff.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250930162724_ff.cs",
-              "ToolTip": "D:\\RCWLogisticsBackend\\Migrations\\20250930162724_ff.cs",
-              "RelativeToolTip": "Migrations\\20250930162724_ff.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T16:27:24.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20250930165700_hey.cs",
-              "DocumentMoniker": "D:\\RCWLogisticsBackend\\Migrations\\20250930165700_hey.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250930165700_hey.cs",
-              "ToolTip": "D:\\RCWLogisticsBackend\\Migrations\\20250930165700_hey.cs",
-              "RelativeToolTip": "Migrations\\20250930165700_hey.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T16:57:01.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20250930001338_nn.cs",
-              "DocumentMoniker": "D:\\RCWLogisticsBackend\\Migrations\\20250930001338_nn.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250930001338_nn.cs",
-              "ToolTip": "D:\\RCWLogisticsBackend\\Migrations\\20250930001338_nn.cs",
-              "RelativeToolTip": "Migrations\\20250930001338_nn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T00:13:39.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "AdminService.cs",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\Services\\AdminService.cs",
               "RelativeDocumentMoniker": "Services\\AdminService.cs",
@@ -262,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "JwtService.cs",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\Helpers\\JwtService.cs",
               "RelativeDocumentMoniker": "Helpers\\JwtService.cs",
@@ -274,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Methods.cs",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\CommonMethods\\Methods.cs",
               "RelativeDocumentMoniker": "CommonMethods\\Methods.cs",
@@ -286,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "LoginAdmin.cs",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\DTOs\\Admin\\LoginAdmin.cs",
               "RelativeDocumentMoniker": "DTOs\\Admin\\LoginAdmin.cs",
@@ -298,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Admins.cs",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\Models\\Admins.cs",
               "RelativeDocumentMoniker": "Models\\Admins.cs",
@@ -310,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "InjectService.cs",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\ServiceInjections\\InjectService.cs",
               "RelativeDocumentMoniker": "ServiceInjections\\InjectService.cs",
@@ -322,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "CreateAdminVm.cs",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\DTOs\\Admin\\CreateAdminVm.cs",
               "RelativeDocumentMoniker": "DTOs\\Admin\\CreateAdminVm.cs",
@@ -334,43 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20250928225822_dsd.cs",
-              "DocumentMoniker": "D:\\RCWLogisticsBackend\\Migrations\\20250928225822_dsd.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250928225822_dsd.cs",
-              "ToolTip": "D:\\RCWLogisticsBackend\\Migrations\\20250928225822_dsd.cs",
-              "RelativeToolTip": "Migrations\\20250928225822_dsd.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T22:58:24.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20250928225339_changedb.cs",
-              "DocumentMoniker": "D:\\RCWLogisticsBackend\\Migrations\\20250928225339_changedb.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250928225339_changedb.cs",
-              "ToolTip": "D:\\RCWLogisticsBackend\\Migrations\\20250928225339_changedb.cs",
-              "RelativeToolTip": "Migrations\\20250928225339_changedb.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T22:53:41.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RSWDb.cs",
-              "DocumentMoniker": "D:\\RCWLogisticsBackend\\LogisticsDb\\RSWDb.cs",
-              "RelativeDocumentMoniker": "LogisticsDb\\RSWDb.cs",
-              "ToolTip": "D:\\RCWLogisticsBackend\\LogisticsDb\\RSWDb.cs",
-              "RelativeToolTip": "LogisticsDb\\RSWDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T22:39:47.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Driver.cs",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\Models\\Driver.cs",
               "RelativeDocumentMoniker": "Models\\Driver.cs",
@@ -382,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "RSWLogistics.http",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\RSWLogistics.http",
               "RelativeDocumentMoniker": "RSWLogistics.http",
@@ -394,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "EmailService.cs",
               "DocumentMoniker": "D:\\RCWLogisticsBackend\\Helpers\\EmailService.cs",
               "RelativeDocumentMoniker": "Helpers\\EmailService.cs",

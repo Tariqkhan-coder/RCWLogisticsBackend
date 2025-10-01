@@ -7,7 +7,7 @@ using RSWLogistics.LogisticsDb;
 
 #nullable disable
 
-namespace RSWLogistics.Migrations
+namespace RCWLogisticsBackend.Migrations
 {
     [DbContext(typeof(RSWDb))]
     partial class RSWDbModelSnapshot : ModelSnapshot

@@ -8,11 +8,11 @@ using RSWLogistics.LogisticsDb;
 
 #nullable disable
 
-namespace RSWLogistics.Migrations
+namespace RCWLogisticsBackend.Migrations
 {
     [DbContext(typeof(RSWDb))]
-    [Migration("20250920010407_neww")]
-    partial class neww
+    [Migration("20251001183439_new")]
+    partial class @new
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -100,6 +100,29 @@ namespace RSWLogistics.Migrations
                     b.HasKey("LoadId");
 
                     b.ToTable("Loads");
+                });
+
+            modelBuilder.Entity("RCWLogisticsBackend.Models.Admins", b =>
+                {
+                    b.Property<int>("AdminId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AdminId"));
+
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasMaxLength(450)
+                        .HasColumnType("NVARCHAR");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasMaxLength(450)
+                        .HasColumnType("NVARCHAR");
+
+                    b.HasKey("AdminId");
+
+                    b.ToTable("Admins");
                 });
 
             modelBuilder.Entity("RSWLogistics.Models.Driver", b =>
