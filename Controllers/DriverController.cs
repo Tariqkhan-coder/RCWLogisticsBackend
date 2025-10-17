@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using RCWLogistics.DTOs.DriverVM;
 using RSWLogistics.DTOs.DriverVM;
 using RSWLogistics.Interfaces;
 using RSWLogistics.LogisticsDb;
+using RSWLogistics.ResponseVM;
 using System.Collections.Generic;
 
 namespace RSWLogistics.Controllers
@@ -52,19 +54,68 @@ namespace RSWLogistics.Controllers
             var result = await _driverService.DeleteDriver(driverId);
             return Ok(result);
         }
-       
-       
+
+
         [HttpPost("UploadDocuments")]
         [AllowAnonymous]
-        public async Task<IActionResult> UploadDriverDocuments(UploadDocuments documents)
+        public async Task<ResponseVm> UploadDriverDocuments([FromForm] UploadDocuments model)
         {
-            if (!ModelState.IsValid)
+            ResponseVm response = new ResponseVm();
+
+            var existingDriver = await _db.Drivers.FirstOrDefaultAsync(d => d.DriverId == model.DriverId);
+            if (existingDriver == null)
             {
-                return BadRequest("Invalid data.");
+                response.ResponseCode = 404;
+                response.ErrorMessage = "Driver not found.";
+                return response;
             }
-            var result = await _driverService.UploadDriverDocuments(documents);
-            return Ok(result);
+
+            if (model.Images == null || !model.Images.Any())
+            {
+                response.ResponseCode = 400;
+                response.ErrorMessage = "No images uploaded.";
+                return response;
+            }
+
+            var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "DriverDocuments");
+            if (!Directory.Exists(uploadPath))
+                Directory.CreateDirectory(uploadPath);
+
+            var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".webp" };
+            var filePaths = new List<string>();
+
+            foreach (var file in model.Images)
+            {
+                var ext = Path.GetExtension(file.FileName).ToLower();
+                if (!allowedExtensions.Contains(ext)) continue;
+
+                var fileName = $"{Guid.NewGuid()}{ext}";
+                var filePath = Path.Combine(uploadPath, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+
+                filePaths.Add($"/DriverDocuments/{fileName}");
+            }
+
+            existingDriver.Documents = string.Join(",", filePaths);
+
+            _db.Drivers.Update(existingDriver);
+            await _db.SaveChangesAsync();
+
+            response.ResponseCode = 200;
+            response.ResponseMessage = "Driver images uploaded successfully.";
+            response.Data = new
+            {
+                existingDriver.DriverId,
+                ImageUrls = filePaths
+            };
+
+            return response;
         }
+
         [HttpPost("RequestLoad")]
         [AllowAnonymous]
         public async Task<IActionResult> RequestLoad(RequestLoadVM request)

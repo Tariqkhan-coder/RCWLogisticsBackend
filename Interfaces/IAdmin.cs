@@ -5,7 +5,7 @@ namespace RCWLogisticsBackend.Interfaces
 {
     public interface IAdmin
     {
-        Task<ResponseVm> CreateAdmin(CreateAdminVm admin);
+       // Task<ResponseVm> CreateAdmin(CreateAdminVm admin);
         Task<ResponseVm> LoginAdmin(LoginAdmin admin);
         Task<ResponseVm> GetAllDrivers();
     }

@@ -24,53 +24,51 @@ namespace RCWLogisticsBackend.Services
             _emailService = emailService;
             // _storedProcExecutor = storedProcExecutor;
         }
-        public async Task<ResponseVm> CreateAdmin(CreateAdminVm admin)
-        {
-            ResponseVm response = new ResponseVm();
 
-            var existingUser = await _db.Admins.FirstOrDefaultAsync(u => u.Username == admin.Username);
-            if (existingUser != null)
-            {
-                response.ResponseCode = 409;
-                response.ErrorMessage = "User already exists.";
-                return response;
-            }
-
-            Admins newUser = new Admins
-            {
-                Username = admin.Username,
-                PasswordHash = admin.Password,
-            };
-            await _db.Admins.AddAsync(newUser);
-            await _db.SaveChangesAsync();
-            response.ResponseCode = 200;
-            response.ResponseMessage = "Admin Created.";
-            response.Data = newUser;
-
-            return response;
-        }
         public async Task<ResponseVm> LoginAdmin(LoginAdmin login)
         {
             ResponseVm response = new ResponseVm();
 
-            var admin = await _db.Admins.FirstOrDefaultAsync(u => u.Username == login.Username);
-
-            if (admin == null || admin.PasswordHash != login.Password)
+            try
             {
-                response.ResponseCode = 401;
-                response.ErrorMessage = "Invalid username or password.";
+                var admin = await _db.Admins.FirstOrDefaultAsync(u => u.Username == login.Username);
+
+                if (admin == null)
+                {
+                    response.ResponseCode = 401;
+                    response.ErrorMessage = "Invalid username or password.";
+                    return response;
+                }
+
+                bool isPasswordValid = BCrypt.Net.BCrypt.Verify(login.Password, admin.PasswordHash);
+                if (!isPasswordValid)
+                {
+                    response.ResponseCode = 401;
+                    response.ErrorMessage = "Invalid username or password.";
+                    return response;
+                }
+
+                var token = _jwtService.GenerateJwtToken(admin);
+
+                response.ResponseCode = 200;
+                response.ResponseMessage = "Login successful.";
+                response.Data = new
+                {
+                    Token = token,
+                    Username = admin.Username,
+                    AdminId = admin.AdminId
+                };
+
                 return response;
             }
-
-            // Generate JWT token
-            var token = _jwtService.GenerateJwtToken(admin);
-
-            response.ResponseCode = 200;
-            response.ResponseMessage = "Login successful.";
-            response.Data = new { Token = token };
-
-            return response;
+            catch (Exception ex)
+            {
+                response.ResponseCode = 500;
+                response.ErrorMessage = $"Internal server error: {ex.Message}";
+                return response;
+            }
         }
+
         public async Task<ResponseVm> GetAllDrivers()
         {
             ResponseVm response = new ResponseVm();

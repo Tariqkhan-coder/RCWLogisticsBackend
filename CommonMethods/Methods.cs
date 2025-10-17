@@ -13,7 +13,13 @@ namespace RSWLogistics.CommonMethods
         // Get your database connection string from configuration
         private static string GetConnectionString()
         {
-            return "Server=DESKTOP-ANMC04E\\MSSQLSERVER01;Database=RCWLogistics;Trusted_Connection=True;TrustServerCertificate=True;";
+            return "Server=72.60.199.207,1433;" +
+                   "Database=RCWLogistics;" +
+                   "User Id=sa;" +
+                   "Password=Tariqkhan7485;" +
+                   "Encrypt=False;" + // Disable encryption
+                   "TrustServerCertificate=True;" + // Trust self-signed cert
+                   "MultipleActiveResultSets=True;";
         }
 
         // Execute a raw SQL query and return true if any result is returned

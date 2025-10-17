@@ -1,10 +1,14 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
 namespace RCWLogistics.DTOs.DriverVM
 {
     public class UploadDocuments
     {
+        [FromForm(Name = "DriverId")]
         public long DriverId { get; set; }
-       public string documents { get; set; } = "";
+
+        [FromForm(Name = "Images")]
+        public List<IFormFile> Images { get; set; } = new List<IFormFile>();
     }
 }

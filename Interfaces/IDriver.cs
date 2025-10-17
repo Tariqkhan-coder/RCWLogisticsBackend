@@ -11,7 +11,7 @@ namespace RSWLogistics.Interfaces
         Task<ResponseVm> DeleteDriver(long driverId);
         
        
-        Task<ResponseVm> UploadDriverDocuments(UploadDocuments documents);
+       // Task<ResponseVm> UploadDriverDocuments(UploadDocuments documents);
         Task<ResponseVm> RequestLoad(RequestLoadVM request);
     }
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using RCWLogistics.DTOs.DriverVM;
 using RCWLogistics.Models;
 using RSWLogistics.CommonMethods;
@@ -51,7 +52,6 @@ namespace RSWLogistics.Services
                 State = driver.State,
                 ZipCode = driver.ZipCode,
                 AdditionalEquipmentNotes = driver.AdditionalEquipmentNotes,
-                Documents = driver.Documents,
                 TruckType = driver.TruckType
             };
             string verificationLink = $"https://yourdomain.com/verify-email?userId={newUser.DriverId}";
@@ -131,36 +131,10 @@ namespace RSWLogistics.Services
             response.Data = existingUser; // optional, agar delete kiya record return karna ho
             return response;
         }
-   
+
+
 
        
-        public async Task<ResponseVm> UploadDriverDocuments(UploadDocuments documents)
-        {
-            ResponseVm response = new ResponseVm();
-
-            var existingDriver = await _db.Drivers.FirstOrDefaultAsync(d => d.DriverId == documents.DriverId);
-            if (existingDriver == null)
-            {
-                response.ResponseCode = 404;
-                response.ErrorMessage = "Driver not found.";
-                return response;
-            }
-
-            // Update only provided fields (null/empty skip logic)
-            if (!string.IsNullOrWhiteSpace(documents.documents))
-                existingDriver.Documents = documents.documents;
-
-      
-
-            _db.Drivers.Update(existingDriver);
-            await _db.SaveChangesAsync();
-
-            response.ResponseCode = 200;
-            response.ResponseMessage = "Driver documents uploaded/updated successfully.";
-            response.Data = existingDriver;
-
-            return response;
-        }
         public async Task<ResponseVm> RequestLoad(RequestLoadVM request)
         {
             ResponseVm response = new ResponseVm();
